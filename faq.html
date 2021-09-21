@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Qwerk</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="fragment" content="!" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="robots" content="noindex" />
+    <meta name="googlebot" content="noindex" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="headerMarketing" class="header-marketing">
+      <header class="header-login d-flex flex-row justify-content-end bg-gray">
+        <div class="social d-none d-sm-flex flex-row mr-auto">
+          <a class="px-3 py-2">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <a class="px-3 py-2">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="px-3 py-2">
+            <i class="fa fa-youtube-play"></i>
+          </a>
+        </div>
+        <div class="buttons d-flex flex-row justify-content-center">
+          <a
+            href="https://www.justqwerk.com/sign-in"
+            class="
+              px-5
+              py-2
+              text-white
+              font-weight-300
+              text-uppercase text-center
+            "
+          >
+            Login
+          </a>
+          <a
+            href="https://www.justqwerk.com/sign-up"
+            class="
+              px-5
+              py-2
+              text-white
+              font-weight-300
+              text-uppercase text-center
+            "
+          >
+            Sign up
+          </a>
+        </div>
+      </header>
+      <header
+        class="
+          sticky-top
+          header-nav
+          p-3
+          px-md-4
+          d-flex
+          flex-row
+          justify-content-between
+        "
+      >
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo-qwerk.png" alt="Qwerk logo" />
+          </a>
+        </div>
+        <div class="links d-none d-md-flex flex-row justify-content-center">
+          <a
+            href="about.html"
+            class="
+              mx-4
+              py-2
+              text-white
+              font-weight-300
+              text-uppercase text-center
+            "
+          >
+            What's Qwerk?
+          </a>
+          <a
+            href="faq.html"
+            class="
+              active
+              mx-4
+              py-2
+              text-white
+              font-weight-300
+              text-uppercase text-center
+            "
+          >
+            FAQ
+          </a>
+          <a
+            href="contact-us.html"
+            class="
+              ml-4
+              mr-0
+              py-2
+              text-white
+              font-weight-300
+              text-uppercase text-center
+            "
+          >
+            Contact
+          </a>
+        </div>
+        <div class="toggle d-flex d-md-none">
+          <a id="mobileSidebarBtn" class="px-1 text-white">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
+    </div>
+
+    <aside id="mobileSidebar" class="mobile-sidebar select-none">
+      <div class="wrapper">
+        <a id="closeMobileSidebarBtn" class="close-btn text-white"> × </a>
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <a href="index.html"> Home </a>
+          </li>
+          <li class="mb-3">
+            <a href="about.html"> What's Qwerk? </a>
+          </li>
+          <li class="mb-3">
+            <a href="faq.html" class="active"> FAQ </a>
+          </li>
+          <li class="mb-3">
+            <a href="contact-us.html"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="faq-main with-header px-1 py-5">
+      <div class="container py-md-5">
+        <h1
+          class="
+            panel-title
+            mb-4
+            text-black text-uppercase text-center
+            font-weight-bold
+          "
+        >
+          Frequently asked questions
+        </h1>
+        <div class="home-divider bg-teal mb-5 mx-auto"></div>
+        <div class="row">
+          <div class="col-lg-3 mb-4 mb-lg-0">
+            <ul
+              class="sticky-top nav row no-gutters justify-content-center"
+              role="tablist"
+            >
+              <li class="col-md-4 col-lg-12 pr-0 pr-md-2 px-lg-0">
+                <a
+                  href="#faq-getting-started"
+                  class="faq-nav-item nav-item mb-2 mb-lg-3 nav-link active"
+                  data-toggle="tab"
+                  role="tab"
+                >
+                  Getting Started
+                </a>
+              </li>
+              <li class="col-md-4 col-lg-12 px-0 px-md-2 px-lg-0">
+                <a
+                  href="#faq-accessing-qwerk"
+                  class="faq-nav-item nav-item mb-2 mb-lg-3 nav-link"
+                  data-toggle="tab"
+                  role="tab"
+                >
+                  Accessing Qwerk
+                </a>
+              </li>
+              <li class="col-md-4 col-lg-12 px-0 pl-md-2 px-lg-0">
+                <a
+                  href="#faq-security-and-privacy"
+                  class="faq-nav-item nav-item mb-2 mb-lg-3 nav-link"
+                  data-toggle="tab"
+                  role="tab"
+                >
+                  Security and Privacy
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9">
+            <div id="faq-content" class="tab-content pl-lg-4">
+              <div
+                id="faq-getting-started"
+                class="tab-pane fade show active"
+                role="tabpanel"
+                aria-labelledby="nav-home-tab"
+              >
+                <h2
+                  class="
+                    sub-panel-title
+                    mb-5
+                    text-teal
+                    font-weight-500
+                    text-uppercase
+                  "
+                >
+                  <span class="text-teal-light">Getting</span><br />
+                  Started
+                </h2>
+                <div class="page-description text-black">
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: What do I need to do to get up and running?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      All you need to do is to visit
+                      <a
+                        href="https://www.justqwerk.com/sign-up"
+                        target="_blank"
+                        >www.justqwerk.com/sign-up</a
+                      >, enter your email address and sign up. You will then
+                      receive a six-digit combination code in your inbox. Enter
+                      the code to the Qwerk activation code bar and you will be
+                      asked to either create or join a team.
+                    </li>
+                    <li class="mb-4">
+                      To create a team enter the name of your team. If you’re
+                      current email is not signed up yet, you’ll be asked to
+                      fill in our form with your desired username, full name,
+                      and password. After that, you’ll be able to use Qwerk and
+                      invite your team.
+                    </li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: What are the system requirements?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      No system requirements whatsoever. All you need to access
+                      Qwerk is a modern web browser.
+                    </li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Is support included?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      Yes! Our team is ready to address any concerns from our
+                      users. Click
+                      <a href="https://www.justqwerk.com/contact-us">here</a> if
+                      you have any concerns regarding Qwerk.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                id="faq-accessing-qwerk"
+                class="tab-pane fade"
+                role="tabpanel"
+                aria-labelledby="nav-profile-tab"
+              >
+                <h2
+                  class="
+                    sub-panel-title
+                    mb-5
+                    text-teal
+                    font-weight-500
+                    text-uppercase
+                  "
+                >
+                  <span class="text-teal-light">Accessing</span><br />
+                  Qwerk
+                </h2>
+                <div class="page-description text-black">
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Is it cloud based?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      Yes! Qwerk operates on a secure cloud-based system so you
+                      can access your data on different devices.
+                    </li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Which browsers do you support?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      Qwerk is supported on any modern browsers. Make sure to
+                      update your browsers to maximise Qwerk’s features.
+                    </li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Do you support single sign on?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">Not yet. But it is in development.</li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Can I use Qwerk on my iPad or tablet?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">Of course!</li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Are integrations available?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      We are currently in the process of expanding integrations
+                      available for Qwerk.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                id="faq-security-and-privacy"
+                class="tab-pane fade"
+                role="tabpanel"
+                aria-labelledby="nav-contact-tab"
+              >
+                <h2
+                  class="
+                    sub-panel-title
+                    mb-5
+                    text-teal
+                    font-weight-500
+                    text-uppercase
+                  "
+                >
+                  <span class="text-teal-light">Security and</span><br />
+                  privacy
+                </h2>
+                <div class="page-description text-black">
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Who can access my Qwerk Account?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      Unless you share your password with your team, only you
+                      can access your account.
+                    </li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Where are your data centers?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      Our servers are currently located in the U.S. West
+                      (Oregon) to temporarily cut down on costs.
+                    </li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Who owns the data I upload on Qwerk?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      You do. All the data that you upload on Qwerk is private
+                      and available only to you and the people you share them
+                      to.
+                    </li>
+                  </ul>
+                  <h3
+                    class="page-description mb-4 text-teal-dark font-weight-500"
+                  >
+                    Q: Is my data secure?
+                  </h3>
+                  <ul class="mb-5">
+                    <li class="mb-4">
+                      Yes. Qwerk has a secured connection (https) which prevents
+                      3rd-party applications from accessing data.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-main px-1 py-5 background-image-cover">
+      <div class="container py-md-5">
+        <div class="row justify-content-center">
+          <div class="col-xl-9">
+            <div class="text-white text-center">
+              <a class="d-inline-block mb-4">
+                <img src="images/logo-qwerk-footer.png" alt="Qwerk logo" />
+              </a>
+              <p class="mb-5">
+                Why not? Qwerk allows you to work smarter, not harder. It's an
+                all-in-one tool that has everything you need to communicate,
+                collaborate and manage all your projects, whether at your desk
+                or on the go. It's fully customisable to fit your quirky work
+                habits. It brings everything together so that your team gets the
+                job done.
+              </p>
+              <div class="row justify-content-center mb-5">
+                <div class="col-md-9 col-lg-7">
+                  <div class="contact-form-footer-subscription">
+                    <div class="wpcf7">
+                      <div class="input-group-footer">
+                        <input
+                          placeholder="Enter your email"
+                          type="email"
+                          class="form-control form-control-home"
+                        />
+                        <input
+                          type="submit"
+                          class="btn btn-home-red"
+                          value="Subscribe"
+                        />
+                        <!--<span class="ajax-loader is-active"></span>-->
+                      </div>
+                      <!--<div class="wpcf7-response-output wpcf7-display-none wpcf7-validation-errors" style="display: block;" role="alert">
+                                        One or more fields have an error. Please check and try again.
+                                    </div>-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="text-teal-default mb-5">
+                <small>
+                  © 2017. All Rights Reserved. Qwerk® is a registered trademark
+                  of Hashtag Interactive Pte. Ltd. Privacy and Terms.
+                </small>
+              </p>
+              <div class="social">
+                <a>
+                  <i class="fa fa-facebook-f"></i>
+                </a>
+                <a>
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a>
+                  <i class="fa fa-youtube-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
